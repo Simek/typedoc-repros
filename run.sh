@@ -16,4 +16,4 @@ echo
 # Print commands before running them, to make CI output easier to understand
 set -v
 
-node -e 'console.dir(JSON.parse(fs.readFileSync("docs/docs.json")).children[0].children[1].type.declaration.signatures[0].comment, { depth: 10 })'
+node -e 'console.dir(JSON.parse(fs.readFileSync("docs/docs.json")), { depth: 16 })'

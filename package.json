@@ -2,6 +2,10 @@
   "name": "typedoc-repros",
   "dependencies": {
     "typedoc": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "@types/react": "^18.0.26",
+    "expo-modules-core": "^1.0.4",
+    "react": "^18.2.0",
+    "react-native": "^0.70.6"
   }
 }
